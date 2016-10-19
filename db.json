@@ -1,0 +1,12 @@
+{
+  "record": [
+    { "id": 1, "title": "小王子", "author": "圣埃克絮佩里",  "isbn": "9787511305206", "number": "学号一", "name": "ltaoo"},
+    { "id": 2, "title": "草房子", "author": "曹文轩",  "isbn": "9787020078400", "number": "学号二", "name": "hello"},
+    { "id": 3, "title": "青铜葵花", "author": "曹文轩",  "isbn": "9787534633362", "number": "学号三", "name": "world"},
+    { "id": 4, "title": "城南旧事", "author": "林海音",  "isbn": "9787561344972", "number": "学号四", "name": "and"},
+    { "id": 5, "title": "HTTP权威指南", "author": "吉尔利 (David Gourley)",  "isbn": "9787115281487", "number": "学号五", "name": "some"},
+    { "id": 6, "title": "JavaScript权威指南", "author": "弗兰纳根(David Flanagan) ",  "isbn": "9787111376613", "number": "学号六", "name": "thing"},
+    { "id": 7, "title": "JavaScript设计模式与开发实践", "author": "曾探",  "isbn": "9787115388889", "number": "学号七", "name": "about"},
+    { "id": 8, "title": "JavaScript高级程序设计", "author": "泽卡斯 (Zakas. Nicholas C.)",  "isbn": "9787115275790", "number": "学号八", "name": "you"}
+  ]
+}

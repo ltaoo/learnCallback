@@ -1,0 +1,19 @@
+{
+  "name": "callback_and_more",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node start.js",
+    "server": "json-server --watch db.json"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel-core": "^6.17.0",
+    "babel-polyfill": "^6.16.0",
+    "babel-preset-es2015-node6": "^0.3.0",
+    "babel-preset-stage-3": "^6.17.0",
+    "json-server": "^0.8.22"
+  }
+}
