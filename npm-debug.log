@@ -1,0 +1,1393 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Users\\ly-litao\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'i',
+1 verbose cli   '--save',
+1 verbose cli   'lowdb' ]
+2 info using npm@3.10.6
+3 info using node@v6.9.1
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData lowdb
+8 silly fetchNamedPackageData lowdb
+9 silly mapToRegistry name lowdb
+10 silly mapToRegistry using default registry
+11 silly mapToRegistry registry https://registry.npm.taobao.org/
+12 silly mapToRegistry data Result {
+12 silly mapToRegistry   raw: 'lowdb',
+12 silly mapToRegistry   scope: null,
+12 silly mapToRegistry   escapedName: 'lowdb',
+12 silly mapToRegistry   name: 'lowdb',
+12 silly mapToRegistry   rawSpec: '',
+12 silly mapToRegistry   spec: 'latest',
+12 silly mapToRegistry   type: 'tag' }
+13 silly mapToRegistry uri https://registry.npm.taobao.org/lowdb
+14 verbose request uri https://registry.npm.taobao.org/lowdb
+15 verbose request no auth needed
+16 info attempt registry request try #1 at 10:02:49
+17 verbose request id d10e7e6eeb7f4dcf
+18 verbose etag "139dd-NxjhoeesUTaOtu/cYxP62w"
+19 http request GET https://registry.npm.taobao.org/lowdb
+20 http 200 https://registry.npm.taobao.org/lowdb
+21 verbose headers { date: 'Sat, 07 Jan 2017 02:03:58 GMT',
+21 verbose headers   'content-type': 'application/json; charset=utf-8',
+21 verbose headers   'content-length': '80375',
+21 verbose headers   connection: 'keep-alive',
+21 verbose headers   'x-current-requests': '1',
+21 verbose headers   etag: '"139f7-BeacL0GdduA1b6sLPLTB9g"',
+21 verbose headers   'x-readtime': '50' }
+22 silly get cb [ 200,
+22 silly get   { date: 'Sat, 07 Jan 2017 02:03:58 GMT',
+22 silly get     'content-type': 'application/json; charset=utf-8',
+22 silly get     'content-length': '80375',
+22 silly get     connection: 'keep-alive',
+22 silly get     'x-current-requests': '1',
+22 silly get     etag: '"139f7-BeacL0GdduA1b6sLPLTB9g"',
+22 silly get     'x-readtime': '50' } ]
+23 verbose get saving lowdb to C:\Users\ly-litao\AppData\Roaming\npm-cache\registry.npm.taobao.org\lowdb\.cache.json
+24 verbose correctMkdir C:\Users\ly-litao\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+25 silly install normalizeTree
+26 silly loadCurrentTree Finishing
+27 silly loadIdealTree Starting
+28 silly install loadIdealTree
+29 silly cloneCurrentTree Starting
+30 silly install cloneCurrentTreeToIdealTree
+31 silly cloneCurrentTree Finishing
+32 silly loadShrinkwrap Starting
+33 silly install loadShrinkwrap
+34 silly loadShrinkwrap Finishing
+35 silly loadAllDepsIntoIdealTree Starting
+36 silly install loadAllDepsIntoIdealTree
+37 silly resolveWithNewModule lowdb@0.14.0 checking installable status
+38 silly cache add args [ 'lowdb', null ]
+39 verbose cache add spec lowdb
+40 silly cache add parsed spec Result {
+40 silly cache add   raw: 'lowdb',
+40 silly cache add   scope: null,
+40 silly cache add   escapedName: 'lowdb',
+40 silly cache add   name: 'lowdb',
+40 silly cache add   rawSpec: '',
+40 silly cache add   spec: 'latest',
+40 silly cache add   type: 'tag' }
+41 silly addNamed lowdb@latest
+42 verbose addNamed "latest" is being treated as a dist-tag for lowdb
+43 info addNameTag [ 'lowdb', 'latest' ]
+44 silly mapToRegistry name lowdb
+45 silly mapToRegistry using default registry
+46 silly mapToRegistry registry https://registry.npm.taobao.org/
+47 silly mapToRegistry data Result {
+47 silly mapToRegistry   raw: 'lowdb',
+47 silly mapToRegistry   scope: null,
+47 silly mapToRegistry   escapedName: 'lowdb',
+47 silly mapToRegistry   name: 'lowdb',
+47 silly mapToRegistry   rawSpec: '',
+47 silly mapToRegistry   spec: 'latest',
+47 silly mapToRegistry   type: 'tag' }
+48 silly mapToRegistry uri https://registry.npm.taobao.org/lowdb
+49 verbose addNameTag registry:https://registry.npm.taobao.org/lowdb not in flight; fetching
+50 verbose get https://registry.npm.taobao.org/lowdb not expired, no request
+51 silly addNameTag next cb for lowdb with tag latest
+52 silly addNamed lowdb@0.14.0
+53 verbose addNamed "0.14.0" is a plain semver version for lowdb
+54 silly cache afterAdd lowdb@0.14.0
+55 verbose afterAdd C:\Users\ly-litao\AppData\Roaming\npm-cache\lowdb\0.14.0\package\package.json not in flight; writing
+56 verbose correctMkdir C:\Users\ly-litao\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+57 verbose afterAdd C:\Users\ly-litao\AppData\Roaming\npm-cache\lowdb\0.14.0\package\package.json written
+58 silly fetchNamedPackageData is-promise
+59 silly mapToRegistry name is-promise
+60 silly mapToRegistry using default registry
+61 silly mapToRegistry registry https://registry.npm.taobao.org/
+62 silly mapToRegistry data Result {
+62 silly mapToRegistry   raw: 'is-promise',
+62 silly mapToRegistry   scope: null,
+62 silly mapToRegistry   escapedName: 'is-promise',
+62 silly mapToRegistry   name: 'is-promise',
+62 silly mapToRegistry   rawSpec: '',
+62 silly mapToRegistry   spec: 'latest',
+62 silly mapToRegistry   type: 'tag' }
+63 silly mapToRegistry uri https://registry.npm.taobao.org/is-promise
+64 silly fetchNamedPackageData json-parse-helpfulerror
+65 silly mapToRegistry name json-parse-helpfulerror
+66 silly mapToRegistry using default registry
+67 silly mapToRegistry registry https://registry.npm.taobao.org/
+68 silly mapToRegistry data Result {
+68 silly mapToRegistry   raw: 'json-parse-helpfulerror',
+68 silly mapToRegistry   scope: null,
+68 silly mapToRegistry   escapedName: 'json-parse-helpfulerror',
+68 silly mapToRegistry   name: 'json-parse-helpfulerror',
+68 silly mapToRegistry   rawSpec: '',
+68 silly mapToRegistry   spec: 'latest',
+68 silly mapToRegistry   type: 'tag' }
+69 silly mapToRegistry uri https://registry.npm.taobao.org/json-parse-helpfulerror
+70 silly fetchNamedPackageData steno
+71 silly mapToRegistry name steno
+72 silly mapToRegistry using default registry
+73 silly mapToRegistry registry https://registry.npm.taobao.org/
+74 silly mapToRegistry data Result {
+74 silly mapToRegistry   raw: 'steno',
+74 silly mapToRegistry   scope: null,
+74 silly mapToRegistry   escapedName: 'steno',
+74 silly mapToRegistry   name: 'steno',
+74 silly mapToRegistry   rawSpec: '',
+74 silly mapToRegistry   spec: 'latest',
+74 silly mapToRegistry   type: 'tag' }
+75 silly mapToRegistry uri https://registry.npm.taobao.org/steno
+76 verbose request uri https://registry.npm.taobao.org/is-promise
+77 verbose request no auth needed
+78 info attempt registry request try #1 at 10:02:50
+79 verbose etag "1687-VEEzIqj1svN0yBuO0sJALw"
+80 http request GET https://registry.npm.taobao.org/is-promise
+81 verbose request uri https://registry.npm.taobao.org/json-parse-helpfulerror
+82 verbose request no auth needed
+83 info attempt registry request try #1 at 10:02:50
+84 verbose etag "1601-w/kk9ChAtl73eATQkltbUA"
+85 http request GET https://registry.npm.taobao.org/json-parse-helpfulerror
+86 verbose request uri https://registry.npm.taobao.org/steno
+87 verbose request no auth needed
+88 info attempt registry request try #1 at 10:02:50
+89 verbose etag "46a4-N8/LfwdNIu8GK48oWw8uuA"
+90 http request GET https://registry.npm.taobao.org/steno
+91 http 304 https://registry.npm.taobao.org/is-promise
+92 verbose headers { date: 'Sat, 07 Jan 2017 02:03:59 GMT',
+92 verbose headers   connection: 'keep-alive',
+92 verbose headers   'x-current-requests': '1',
+92 verbose headers   etag: '"1687-VEEzIqj1svN0yBuO0sJALw"',
+92 verbose headers   'x-readtime': '20' }
+93 silly get cb [ 304,
+93 silly get   { date: 'Sat, 07 Jan 2017 02:03:59 GMT',
+93 silly get     connection: 'keep-alive',
+93 silly get     'x-current-requests': '1',
+93 silly get     etag: '"1687-VEEzIqj1svN0yBuO0sJALw"',
+93 silly get     'x-readtime': '20' } ]
+94 verbose etag https://registry.npm.taobao.org/is-promise from cache
+95 verbose get saving is-promise to C:\Users\ly-litao\AppData\Roaming\npm-cache\registry.npm.taobao.org\is-promise\.cache.json
+96 verbose correctMkdir C:\Users\ly-litao\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+97 silly resolveWithNewModule is-promise@2.1.0 checking installable status
+98 silly cache add args [ 'is-promise@^2.1.0', null ]
+99 verbose cache add spec is-promise@^2.1.0
+100 silly cache add parsed spec Result {
+100 silly cache add   raw: 'is-promise@^2.1.0',
+100 silly cache add   scope: null,
+100 silly cache add   escapedName: 'is-promise',
+100 silly cache add   name: 'is-promise',
+100 silly cache add   rawSpec: '^2.1.0',
+100 silly cache add   spec: '>=2.1.0 <3.0.0',
+100 silly cache add   type: 'range' }
+101 silly addNamed is-promise@>=2.1.0 <3.0.0
+102 verbose addNamed ">=2.1.0 <3.0.0" is a valid semver range for is-promise
+103 silly addNameRange { name: 'is-promise', range: '>=2.1.0 <3.0.0', hasData: false }
+104 silly mapToRegistry name is-promise
+105 silly mapToRegistry using default registry
+106 silly mapToRegistry registry https://registry.npm.taobao.org/
+107 silly mapToRegistry data Result {
+107 silly mapToRegistry   raw: 'is-promise',
+107 silly mapToRegistry   scope: null,
+107 silly mapToRegistry   escapedName: 'is-promise',
+107 silly mapToRegistry   name: 'is-promise',
+107 silly mapToRegistry   rawSpec: '',
+107 silly mapToRegistry   spec: 'latest',
+107 silly mapToRegistry   type: 'tag' }
+108 silly mapToRegistry uri https://registry.npm.taobao.org/is-promise
+109 verbose addNameRange registry:https://registry.npm.taobao.org/is-promise not in flight; fetching
+110 verbose get https://registry.npm.taobao.org/is-promise not expired, no request
+111 silly addNameRange number 2 { name: 'is-promise', range: '>=2.1.0 <3.0.0', hasData: true }
+112 silly addNameRange versions [ 'is-promise', [ '2.1.0', '2.0.0', '1.0.1', '1.0.0' ] ]
+113 silly addNamed is-promise@2.1.0
+114 verbose addNamed "2.1.0" is a plain semver version for is-promise
+115 silly cache afterAdd is-promise@2.1.0
+116 verbose afterAdd C:\Users\ly-litao\AppData\Roaming\npm-cache\is-promise\2.1.0\package\package.json not in flight; writing
+117 verbose correctMkdir C:\Users\ly-litao\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+118 verbose afterAdd C:\Users\ly-litao\AppData\Roaming\npm-cache\is-promise\2.1.0\package\package.json written
+119 http 304 https://registry.npm.taobao.org/json-parse-helpfulerror
+120 verbose headers { date: 'Sat, 07 Jan 2017 02:03:59 GMT',
+120 verbose headers   connection: 'keep-alive',
+120 verbose headers   'x-current-requests': '1',
+120 verbose headers   etag: '"1601-w/kk9ChAtl73eATQkltbUA"',
+120 verbose headers   'x-readtime': '13' }
+121 silly get cb [ 304,
+121 silly get   { date: 'Sat, 07 Jan 2017 02:03:59 GMT',
+121 silly get     connection: 'keep-alive',
+121 silly get     'x-current-requests': '1',
+121 silly get     etag: '"1601-w/kk9ChAtl73eATQkltbUA"',
+121 silly get     'x-readtime': '13' } ]
+122 verbose etag https://registry.npm.taobao.org/json-parse-helpfulerror from cache
+123 verbose get saving json-parse-helpfulerror to C:\Users\ly-litao\AppData\Roaming\npm-cache\registry.npm.taobao.org\json-parse-helpfulerror\.cache.json
+124 verbose correctMkdir C:\Users\ly-litao\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+125 http 304 https://registry.npm.taobao.org/steno
+126 verbose headers { date: 'Sat, 07 Jan 2017 02:03:59 GMT',
+126 verbose headers   connection: 'keep-alive',
+126 verbose headers   'x-current-requests': '1',
+126 verbose headers   etag: '"46a4-N8/LfwdNIu8GK48oWw8uuA"',
+126 verbose headers   'x-readtime': '18' }
+127 silly get cb [ 304,
+127 silly get   { date: 'Sat, 07 Jan 2017 02:03:59 GMT',
+127 silly get     connection: 'keep-alive',
+127 silly get     'x-current-requests': '1',
+127 silly get     etag: '"46a4-N8/LfwdNIu8GK48oWw8uuA"',
+127 silly get     'x-readtime': '18' } ]
+128 verbose etag https://registry.npm.taobao.org/steno from cache
+129 verbose get saving steno to C:\Users\ly-litao\AppData\Roaming\npm-cache\registry.npm.taobao.org\steno\.cache.json
+130 verbose correctMkdir C:\Users\ly-litao\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+131 silly resolveWithNewModule json-parse-helpfulerror@1.0.3 checking installable status
+132 silly cache add args [ 'json-parse-helpfulerror@^1.0.3', null ]
+133 verbose cache add spec json-parse-helpfulerror@^1.0.3
+134 silly cache add parsed spec Result {
+134 silly cache add   raw: 'json-parse-helpfulerror@^1.0.3',
+134 silly cache add   scope: null,
+134 silly cache add   escapedName: 'json-parse-helpfulerror',
+134 silly cache add   name: 'json-parse-helpfulerror',
+134 silly cache add   rawSpec: '^1.0.3',
+134 silly cache add   spec: '>=1.0.3 <2.0.0',
+134 silly cache add   type: 'range' }
+135 silly addNamed json-parse-helpfulerror@>=1.0.3 <2.0.0
+136 verbose addNamed ">=1.0.3 <2.0.0" is a valid semver range for json-parse-helpfulerror
+137 silly addNameRange { name: 'json-parse-helpfulerror',
+137 silly addNameRange   range: '>=1.0.3 <2.0.0',
+137 silly addNameRange   hasData: false }
+138 silly mapToRegistry name json-parse-helpfulerror
+139 silly mapToRegistry using default registry
+140 silly mapToRegistry registry https://registry.npm.taobao.org/
+141 silly mapToRegistry data Result {
+141 silly mapToRegistry   raw: 'json-parse-helpfulerror',
+141 silly mapToRegistry   scope: null,
+141 silly mapToRegistry   escapedName: 'json-parse-helpfulerror',
+141 silly mapToRegistry   name: 'json-parse-helpfulerror',
+141 silly mapToRegistry   rawSpec: '',
+141 silly mapToRegistry   spec: 'latest',
+141 silly mapToRegistry   type: 'tag' }
+142 silly mapToRegistry uri https://registry.npm.taobao.org/json-parse-helpfulerror
+143 verbose addNameRange registry:https://registry.npm.taobao.org/json-parse-helpfulerror not in flight; fetching
+144 verbose get https://registry.npm.taobao.org/json-parse-helpfulerror not expired, no request
+145 silly addNameRange number 2 { name: 'json-parse-helpfulerror',
+145 silly addNameRange   range: '>=1.0.3 <2.0.0',
+145 silly addNameRange   hasData: true }
+146 silly addNameRange versions [ 'json-parse-helpfulerror', [ '1.0.3', '1.0.2', '1.0.1' ] ]
+147 silly addNamed json-parse-helpfulerror@1.0.3
+148 verbose addNamed "1.0.3" is a plain semver version for json-parse-helpfulerror
+149 silly resolveWithNewModule steno@0.4.4 checking installable status
+150 silly cache add args [ 'steno@^0.4.1', null ]
+151 verbose cache add spec steno@^0.4.1
+152 silly cache add parsed spec Result {
+152 silly cache add   raw: 'steno@^0.4.1',
+152 silly cache add   scope: null,
+152 silly cache add   escapedName: 'steno',
+152 silly cache add   name: 'steno',
+152 silly cache add   rawSpec: '^0.4.1',
+152 silly cache add   spec: '>=0.4.1 <0.5.0',
+152 silly cache add   type: 'range' }
+153 silly addNamed steno@>=0.4.1 <0.5.0
+154 verbose addNamed ">=0.4.1 <0.5.0" is a valid semver range for steno
+155 silly addNameRange { name: 'steno', range: '>=0.4.1 <0.5.0', hasData: false }
+156 silly mapToRegistry name steno
+157 silly mapToRegistry using default registry
+158 silly mapToRegistry registry https://registry.npm.taobao.org/
+159 silly mapToRegistry data Result {
+159 silly mapToRegistry   raw: 'steno',
+159 silly mapToRegistry   scope: null,
+159 silly mapToRegistry   escapedName: 'steno',
+159 silly mapToRegistry   name: 'steno',
+159 silly mapToRegistry   rawSpec: '',
+159 silly mapToRegistry   spec: 'latest',
+159 silly mapToRegistry   type: 'tag' }
+160 silly mapToRegistry uri https://registry.npm.taobao.org/steno
+161 verbose addNameRange registry:https://registry.npm.taobao.org/steno not in flight; fetching
+162 verbose get https://registry.npm.taobao.org/steno not expired, no request
+163 silly addNameRange number 2 { name: 'steno', range: '>=0.4.1 <0.5.0', hasData: true }
+164 silly addNameRange versions [ 'steno',
+164 silly addNameRange   [ '0.4.4',
+164 silly addNameRange     '0.4.3',
+164 silly addNameRange     '0.4.2',
+164 silly addNameRange     '0.4.1',
+164 silly addNameRange     '0.4.0',
+164 silly addNameRange     '0.3.2',
+164 silly addNameRange     '0.3.1',
+164 silly addNameRange     '0.3.0',
+164 silly addNameRange     '0.2.1',
+164 silly addNameRange     '0.2.0',
+164 silly addNameRange     '0.1.2',
+164 silly addNameRange     '0.1.1',
+164 silly addNameRange     '0.1.0' ] ]
+165 silly addNamed steno@0.4.4
+166 verbose addNamed "0.4.4" is a plain semver version for steno
+167 silly cache afterAdd steno@0.4.4
+168 verbose afterAdd C:\Users\ly-litao\AppData\Roaming\npm-cache\steno\0.4.4\package\package.json not in flight; writing
+169 verbose correctMkdir C:\Users\ly-litao\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+170 verbose afterAdd C:\Users\ly-litao\AppData\Roaming\npm-cache\steno\0.4.4\package\package.json written
+171 silly cache afterAdd json-parse-helpfulerror@1.0.3
+172 verbose afterAdd C:\Users\ly-litao\AppData\Roaming\npm-cache\json-parse-helpfulerror\1.0.3\package\package.json not in flight; writing
+173 verbose correctMkdir C:\Users\ly-litao\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+174 verbose afterAdd C:\Users\ly-litao\AppData\Roaming\npm-cache\json-parse-helpfulerror\1.0.3\package\package.json written
+175 silly fetchNamedPackageData jju
+176 silly mapToRegistry name jju
+177 silly mapToRegistry using default registry
+178 silly mapToRegistry registry https://registry.npm.taobao.org/
+179 silly mapToRegistry data Result {
+179 silly mapToRegistry   raw: 'jju',
+179 silly mapToRegistry   scope: null,
+179 silly mapToRegistry   escapedName: 'jju',
+179 silly mapToRegistry   name: 'jju',
+179 silly mapToRegistry   rawSpec: '',
+179 silly mapToRegistry   spec: 'latest',
+179 silly mapToRegistry   type: 'tag' }
+180 silly mapToRegistry uri https://registry.npm.taobao.org/jju
+181 verbose request uri https://registry.npm.taobao.org/jju
+182 verbose request no auth needed
+183 info attempt registry request try #1 at 10:02:50
+184 verbose etag "7a62-RGliGv68JFAHzZrA3dCrDA"
+185 http request GET https://registry.npm.taobao.org/jju
+186 http 304 https://registry.npm.taobao.org/jju
+187 verbose headers { date: 'Sat, 07 Jan 2017 02:03:59 GMT',
+187 verbose headers   connection: 'keep-alive',
+187 verbose headers   'x-current-requests': '1',
+187 verbose headers   etag: '"7a62-RGliGv68JFAHzZrA3dCrDA"',
+187 verbose headers   'x-readtime': '27' }
+188 silly get cb [ 304,
+188 silly get   { date: 'Sat, 07 Jan 2017 02:03:59 GMT',
+188 silly get     connection: 'keep-alive',
+188 silly get     'x-current-requests': '1',
+188 silly get     etag: '"7a62-RGliGv68JFAHzZrA3dCrDA"',
+188 silly get     'x-readtime': '27' } ]
+189 verbose etag https://registry.npm.taobao.org/jju from cache
+190 verbose get saving jju to C:\Users\ly-litao\AppData\Roaming\npm-cache\registry.npm.taobao.org\jju\.cache.json
+191 verbose correctMkdir C:\Users\ly-litao\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+192 silly resolveWithNewModule jju@1.3.0 checking installable status
+193 silly cache add args [ 'jju@^1.1.0', null ]
+194 verbose cache add spec jju@^1.1.0
+195 silly cache add parsed spec Result {
+195 silly cache add   raw: 'jju@^1.1.0',
+195 silly cache add   scope: null,
+195 silly cache add   escapedName: 'jju',
+195 silly cache add   name: 'jju',
+195 silly cache add   rawSpec: '^1.1.0',
+195 silly cache add   spec: '>=1.1.0 <2.0.0',
+195 silly cache add   type: 'range' }
+196 silly addNamed jju@>=1.1.0 <2.0.0
+197 verbose addNamed ">=1.1.0 <2.0.0" is a valid semver range for jju
+198 silly addNameRange { name: 'jju', range: '>=1.1.0 <2.0.0', hasData: false }
+199 silly mapToRegistry name jju
+200 silly mapToRegistry using default registry
+201 silly mapToRegistry registry https://registry.npm.taobao.org/
+202 silly mapToRegistry data Result {
+202 silly mapToRegistry   raw: 'jju',
+202 silly mapToRegistry   scope: null,
+202 silly mapToRegistry   escapedName: 'jju',
+202 silly mapToRegistry   name: 'jju',
+202 silly mapToRegistry   rawSpec: '',
+202 silly mapToRegistry   spec: 'latest',
+202 silly mapToRegistry   type: 'tag' }
+203 silly mapToRegistry uri https://registry.npm.taobao.org/jju
+204 verbose addNameRange registry:https://registry.npm.taobao.org/jju not in flight; fetching
+205 verbose get https://registry.npm.taobao.org/jju not expired, no request
+206 silly addNameRange number 2 { name: 'jju', range: '>=1.1.0 <2.0.0', hasData: true }
+207 silly addNameRange versions [ 'jju',
+207 silly addNameRange   [ '1.3.0',
+207 silly addNameRange     '1.2.1',
+207 silly addNameRange     '1.2.0',
+207 silly addNameRange     '1.1.0',
+207 silly addNameRange     '1.0.5',
+207 silly addNameRange     '1.0.4',
+207 silly addNameRange     '1.0.3',
+207 silly addNameRange     '1.0.2',
+207 silly addNameRange     '1.0.1',
+207 silly addNameRange     '1.0.0',
+207 silly addNameRange     '0.7.0',
+207 silly addNameRange     '0.6.1',
+207 silly addNameRange     '0.6.0',
+207 silly addNameRange     '0.5.3',
+207 silly addNameRange     '0.5.2',
+207 silly addNameRange     '0.5.1',
+207 silly addNameRange     '0.5.0',
+207 silly addNameRange     '0.4.2',
+207 silly addNameRange     '0.4.1',
+207 silly addNameRange     '0.4.0' ] ]
+208 silly addNamed jju@1.3.0
+209 verbose addNamed "1.3.0" is a plain semver version for jju
+210 silly cache afterAdd jju@1.3.0
+211 verbose afterAdd C:\Users\ly-litao\AppData\Roaming\npm-cache\jju\1.3.0\package\package.json not in flight; writing
+212 verbose correctMkdir C:\Users\ly-litao\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+213 verbose afterAdd C:\Users\ly-litao\AppData\Roaming\npm-cache\jju\1.3.0\package\package.json written
+214 silly fetchNamedPackageData fsevents
+215 silly mapToRegistry name fsevents
+216 silly mapToRegistry using default registry
+217 silly mapToRegistry registry https://registry.npm.taobao.org/
+218 silly mapToRegistry data Result {
+218 silly mapToRegistry   raw: 'fsevents',
+218 silly mapToRegistry   scope: null,
+218 silly mapToRegistry   escapedName: 'fsevents',
+218 silly mapToRegistry   name: 'fsevents',
+218 silly mapToRegistry   rawSpec: '',
+218 silly mapToRegistry   spec: 'latest',
+218 silly mapToRegistry   type: 'tag' }
+219 silly mapToRegistry uri https://registry.npm.taobao.org/fsevents
+220 verbose request uri https://registry.npm.taobao.org/fsevents
+221 verbose request no auth needed
+222 info attempt registry request try #1 at 10:02:50
+223 verbose etag "beab-v/StzfXX+6p3X/lZP5wZDA"
+224 http request GET https://registry.npm.taobao.org/fsevents
+225 http 304 https://registry.npm.taobao.org/fsevents
+226 verbose headers { date: 'Sat, 07 Jan 2017 02:03:59 GMT',
+226 verbose headers   connection: 'keep-alive',
+226 verbose headers   'x-current-requests': '1',
+226 verbose headers   etag: '"beab-v/StzfXX+6p3X/lZP5wZDA"',
+226 verbose headers   'x-readtime': '34' }
+227 silly get cb [ 304,
+227 silly get   { date: 'Sat, 07 Jan 2017 02:03:59 GMT',
+227 silly get     connection: 'keep-alive',
+227 silly get     'x-current-requests': '1',
+227 silly get     etag: '"beab-v/StzfXX+6p3X/lZP5wZDA"',
+227 silly get     'x-readtime': '34' } ]
+228 verbose etag https://registry.npm.taobao.org/fsevents from cache
+229 verbose get saving fsevents to C:\Users\ly-litao\AppData\Roaming\npm-cache\registry.npm.taobao.org\fsevents\.cache.json
+230 verbose correctMkdir C:\Users\ly-litao\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+231 silly resolveWithNewModule fsevents@1.0.17 checking installable status
+232 silly fetchNamedPackageData lowdb
+233 silly mapToRegistry name lowdb
+234 silly mapToRegistry using default registry
+235 silly mapToRegistry registry https://registry.npm.taobao.org/
+236 silly mapToRegistry data Result {
+236 silly mapToRegistry   raw: 'lowdb',
+236 silly mapToRegistry   scope: null,
+236 silly mapToRegistry   escapedName: 'lowdb',
+236 silly mapToRegistry   name: 'lowdb',
+236 silly mapToRegistry   rawSpec: '',
+236 silly mapToRegistry   spec: 'latest',
+236 silly mapToRegistry   type: 'tag' }
+237 silly mapToRegistry uri https://registry.npm.taobao.org/lowdb
+238 silly resolveWithNewModule lowdb@0.13.1 checking installable status
+239 silly cache add args [ 'lowdb@^0.13.1', null ]
+240 verbose cache add spec lowdb@^0.13.1
+241 silly cache add parsed spec Result {
+241 silly cache add   raw: 'lowdb@^0.13.1',
+241 silly cache add   scope: null,
+241 silly cache add   escapedName: 'lowdb',
+241 silly cache add   name: 'lowdb',
+241 silly cache add   rawSpec: '^0.13.1',
+241 silly cache add   spec: '>=0.13.1 <0.14.0',
+241 silly cache add   type: 'range' }
+242 silly addNamed lowdb@>=0.13.1 <0.14.0
+243 verbose addNamed ">=0.13.1 <0.14.0" is a valid semver range for lowdb
+244 silly addNameRange { name: 'lowdb', range: '>=0.13.1 <0.14.0', hasData: false }
+245 silly mapToRegistry name lowdb
+246 silly mapToRegistry using default registry
+247 silly mapToRegistry registry https://registry.npm.taobao.org/
+248 silly mapToRegistry data Result {
+248 silly mapToRegistry   raw: 'lowdb',
+248 silly mapToRegistry   scope: null,
+248 silly mapToRegistry   escapedName: 'lowdb',
+248 silly mapToRegistry   name: 'lowdb',
+248 silly mapToRegistry   rawSpec: '',
+248 silly mapToRegistry   spec: 'latest',
+248 silly mapToRegistry   type: 'tag' }
+249 silly mapToRegistry uri https://registry.npm.taobao.org/lowdb
+250 verbose addNameRange registry:https://registry.npm.taobao.org/lowdb not in flight; fetching
+251 verbose get https://registry.npm.taobao.org/lowdb not expired, no request
+252 silly addNameRange number 2 { name: 'lowdb', range: '>=0.13.1 <0.14.0', hasData: true }
+253 silly addNameRange versions [ 'lowdb',
+253 silly addNameRange   [ '0.14.0',
+253 silly addNameRange     '0.13.1',
+253 silly addNameRange     '0.13.0',
+253 silly addNameRange     '0.13.0-beta-5',
+253 silly addNameRange     '0.13.0-beta.4',
+253 silly addNameRange     '0.13.0-beta.3',
+253 silly addNameRange     '0.13.0-beta.2',
+253 silly addNameRange     '0.13.0-beta.1',
+253 silly addNameRange     '0.12.5',
+253 silly addNameRange     '0.12.4',
+253 silly addNameRange     '0.12.3',
+253 silly addNameRange     '0.12.2',
+253 silly addNameRange     '0.12.1',
+253 silly addNameRange     '0.12.0',
+253 silly addNameRange     '0.11.5',
+253 silly addNameRange     '0.11.4',
+253 silly addNameRange     '0.11.3',
+253 silly addNameRange     '0.11.2',
+253 silly addNameRange     '0.11.1',
+253 silly addNameRange     '0.11.0',
+253 silly addNameRange     '0.10.3',
+253 silly addNameRange     '0.10.2',
+253 silly addNameRange     '0.10.1',
+253 silly addNameRange     '0.10.0',
+253 silly addNameRange     '0.9.0',
+253 silly addNameRange     '0.8.1',
+253 silly addNameRange     '0.8.0',
+253 silly addNameRange     '0.7.3',
+253 silly addNameRange     '0.7.2',
+253 silly addNameRange     '0.7.1',
+253 silly addNameRange     '0.7.0',
+253 silly addNameRange     '0.6.1',
+253 silly addNameRange     '0.6.0',
+253 silly addNameRange     '0.5.1',
+253 silly addNameRange     '0.5.0',
+253 silly addNameRange     '0.4.2',
+253 silly addNameRange     '0.4.1',
+253 silly addNameRange     '0.4.0',
+253 silly addNameRange     '0.3.2',
+253 silly addNameRange     '0.3.1',
+253 silly addNameRange     '0.3.0',
+253 silly addNameRange     '0.2.0',
+253 silly addNameRange     '0.1.0' ] ]
+254 silly addNamed lowdb@0.13.1
+255 verbose addNamed "0.13.1" is a plain semver version for lowdb
+256 silly cache afterAdd lowdb@0.13.1
+257 verbose afterAdd C:\Users\ly-litao\AppData\Roaming\npm-cache\lowdb\0.13.1\package\package.json not in flight; writing
+258 verbose correctMkdir C:\Users\ly-litao\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+259 verbose afterAdd C:\Users\ly-litao\AppData\Roaming\npm-cache\lowdb\0.13.1\package\package.json written
+260 silly loadAllDepsIntoIdealTree Finishing
+261 silly loadIdealTree Finishing
+262 silly currentTree callback_and_more@1.0.0
+262 silly currentTree +-- accepts@1.3.3
+262 silly currentTree +-- ansi-align@1.1.0
+262 silly currentTree +-- ansi-regex@2.0.0
+262 silly currentTree +-- ansi-styles@2.2.1
+262 silly currentTree +-- anymatch@1.3.0
+262 silly currentTree +-- arr-diff@2.0.0
+262 silly currentTree +-- arr-flatten@1.0.1
+262 silly currentTree +-- array-flatten@1.1.1
+262 silly currentTree +-- array-unique@0.2.1
+262 silly currentTree +-- arrify@1.0.1
+262 silly currentTree +-- asn1@0.2.3
+262 silly currentTree +-- assert-plus@0.2.0
+262 silly currentTree +-- async-each@1.0.1
+262 silly currentTree +-- asynckit@0.4.0
+262 silly currentTree +-- aws-sign2@0.6.0
+262 silly currentTree +-- aws4@1.5.0
+262 silly currentTree +-- babel-code-frame@6.20.0
+262 silly currentTree +-- babel-core@6.21.0
+262 silly currentTree +-- babel-generator@6.21.0
+262 silly currentTree +-- babel-helper-builder-binary-assignment-operator-visitor@6.18.0
+262 silly currentTree +-- babel-helper-call-delegate@6.18.0
+262 silly currentTree +-- babel-helper-explode-assignable-expression@6.18.0
+262 silly currentTree +-- babel-helper-function-name@6.18.0
+262 silly currentTree +-- babel-helper-get-function-arity@6.18.0
+262 silly currentTree +-- babel-helper-hoist-variables@6.18.0
+262 silly currentTree +-- babel-helper-remap-async-to-generator@6.20.3
+262 silly currentTree +-- babel-helpers@6.16.0
+262 silly currentTree +-- babel-messages@6.8.0
+262 silly currentTree +-- babel-plugin-syntax-async-functions@6.13.0
+262 silly currentTree +-- babel-plugin-syntax-async-generators@6.13.0
+262 silly currentTree +-- babel-plugin-syntax-exponentiation-operator@6.13.0
+262 silly currentTree +-- babel-plugin-syntax-object-rest-spread@6.13.0
+262 silly currentTree +-- babel-plugin-syntax-trailing-function-commas@6.20.0
+262 silly currentTree +-- babel-plugin-transform-async-generator-functions@6.17.0
+262 silly currentTree +-- babel-plugin-transform-async-to-generator@6.16.0
+262 silly currentTree +-- babel-plugin-transform-es2015-destructuring@6.19.0
+262 silly currentTree +-- babel-plugin-transform-es2015-function-name@6.9.0
+262 silly currentTree +-- babel-plugin-transform-es2015-modules-commonjs@6.18.0
+262 silly currentTree +-- babel-plugin-transform-es2015-parameters@6.21.0
+262 silly currentTree +-- babel-plugin-transform-exponentiation-operator@6.8.0
+262 silly currentTree +-- babel-plugin-transform-object-rest-spread@6.20.2
+262 silly currentTree +-- babel-plugin-transform-strict-mode@6.18.0
+262 silly currentTree +-- babel-polyfill@6.20.0
+262 silly currentTree +-- babel-preset-es2015-node6@0.3.0
+262 silly currentTree +-- babel-preset-stage-3@6.17.0
+262 silly currentTree +-- babel-register@6.18.0
+262 silly currentTree +-- babel-runtime@6.20.0
+262 silly currentTree +-- babel-template@6.16.0
+262 silly currentTree +-- babel-traverse@6.21.0
+262 silly currentTree +-- babel-types@6.21.0
+262 silly currentTree +-- babylon@6.14.1
+262 silly currentTree +-- balanced-match@0.4.2
+262 silly currentTree +-- basic-auth@1.0.4
+262 silly currentTree +-- bcrypt-pbkdf@1.0.0
+262 silly currentTree +-- binary-extensions@1.8.0
+262 silly currentTree +-- body-parser@1.15.2
+262 silly currentTree | +-- debug@2.2.0
+262 silly currentTree | `-- ms@0.7.1
+262 silly currentTree +-- boom@2.10.1
+262 silly currentTree +-- boxen@0.6.0
+262 silly currentTree +-- brace-expansion@1.1.6
+262 silly currentTree +-- braces@1.8.5
+262 silly currentTree +-- buffer-shims@1.0.0
+262 silly currentTree +-- builtin-modules@1.1.1
+262 silly currentTree +-- bytes@2.4.0
+262 silly currentTree +-- camelcase@2.1.1
+262 silly currentTree +-- capture-stack-trace@1.0.0
+262 silly currentTree +-- caseless@0.11.0
+262 silly currentTree +-- chalk@1.1.3
+262 silly currentTree +-- chokidar@1.6.1
+262 silly currentTree +-- cli-boxes@1.0.0
+262 silly currentTree +-- cliui@3.2.0
+262 silly currentTree +-- co@4.6.0
+262 silly currentTree +-- code-point-at@1.1.0
+262 silly currentTree +-- combined-stream@1.0.5
+262 silly currentTree +-- commander@2.9.0
+262 silly currentTree +-- compressible@2.0.9
+262 silly currentTree +-- compression@1.6.2
+262 silly currentTree | +-- bytes@2.3.0
+262 silly currentTree | +-- debug@2.2.0
+262 silly currentTree | `-- ms@0.7.1
+262 silly currentTree +-- concat-map@0.0.1
+262 silly currentTree +-- configstore@2.1.0
+262 silly currentTree +-- connect-pause@0.1.0
+262 silly currentTree +-- content-disposition@0.5.1
+262 silly currentTree +-- content-type@1.0.2
+262 silly currentTree +-- convert-source-map@1.3.0
+262 silly currentTree +-- cookie-signature@1.0.6
+262 silly currentTree +-- cookie@0.3.1
+262 silly currentTree +-- core-js@2.4.1
+262 silly currentTree +-- core-util-is@1.0.2
+262 silly currentTree +-- cors@2.8.1
+262 silly currentTree +-- create-error-class@3.0.2
+262 silly currentTree +-- cryptiles@2.0.5
+262 silly currentTree +-- dashdash@1.14.1
+262 silly currentTree | `-- assert-plus@1.0.0
+262 silly currentTree +-- debug@2.5.2
+262 silly currentTree +-- decamelize@1.2.0
+262 silly currentTree +-- deep-extend@0.4.1
+262 silly currentTree +-- delayed-stream@1.0.0
+262 silly currentTree +-- depd@1.1.0
+262 silly currentTree +-- destroy@1.0.4
+262 silly currentTree +-- detect-indent@4.0.0
+262 silly currentTree +-- dot-prop@3.0.0
+262 silly currentTree +-- duplexer2@0.1.4
+262 silly currentTree +-- ecc-jsbn@0.1.1
+262 silly currentTree +-- ee-first@1.1.1
+262 silly currentTree +-- encodeurl@1.0.1
+262 silly currentTree +-- encoding@0.1.12
+262 silly currentTree +-- error-ex@1.3.0
+262 silly currentTree +-- errorhandler@1.5.0
+262 silly currentTree +-- escape-html@1.0.3
+262 silly currentTree +-- escape-string-regexp@1.0.5
+262 silly currentTree +-- esutils@2.0.2
+262 silly currentTree +-- etag@1.7.0
+262 silly currentTree +-- expand-brackets@0.1.5
+262 silly currentTree +-- expand-range@1.8.2
+262 silly currentTree +-- express@4.14.0
+262 silly currentTree | +-- debug@2.2.0
+262 silly currentTree | `-- ms@0.7.1
+262 silly currentTree +-- extend@3.0.0
+262 silly currentTree +-- extglob@0.3.2
+262 silly currentTree +-- extsprintf@1.0.2
+262 silly currentTree +-- filename-regex@2.0.0
+262 silly currentTree +-- fill-range@2.2.3
+262 silly currentTree +-- filled-array@1.1.0
+262 silly currentTree +-- finalhandler@0.5.0
+262 silly currentTree | +-- debug@2.2.0
+262 silly currentTree | `-- ms@0.7.1
+262 silly currentTree +-- find-up@1.1.2
+262 silly currentTree +-- for-in@0.1.6
+262 silly currentTree +-- for-own@0.1.4
+262 silly currentTree +-- forever-agent@0.6.1
+262 silly currentTree +-- form-data@2.1.2
+262 silly currentTree +-- forwarded@0.1.0
+262 silly currentTree +-- fresh@0.3.0
+262 silly currentTree +-- generate-function@2.0.0
+262 silly currentTree +-- generate-object-property@1.2.0
+262 silly currentTree +-- get-caller-file@1.0.2
+262 silly currentTree +-- getpass@0.1.6
+262 silly currentTree | `-- assert-plus@1.0.0
+262 silly currentTree +-- glob-base@0.3.0
+262 silly currentTree +-- glob-parent@2.0.0
+262 silly currentTree +-- globals@9.14.0
+262 silly currentTree +-- got@5.7.1
+262 silly currentTree +-- graceful-fs@4.1.11
+262 silly currentTree +-- graceful-readlink@1.0.1
+262 silly currentTree +-- har-validator@2.0.6
+262 silly currentTree +-- has-ansi@2.0.0
+262 silly currentTree +-- hawk@3.1.3
+262 silly currentTree +-- hoek@2.16.3
+262 silly currentTree +-- home-or-tmp@2.0.0
+262 silly currentTree +-- hosted-git-info@2.1.5
+262 silly currentTree +-- http-errors@1.5.1
+262 silly currentTree +-- http-signature@1.1.1
+262 silly currentTree +-- iconv-lite@0.4.13
+262 silly currentTree +-- imurmurhash@0.1.4
+262 silly currentTree +-- inherits@2.0.3
+262 silly currentTree +-- ini@1.3.4
+262 silly currentTree +-- invariant@2.2.2
+262 silly currentTree +-- invert-kv@1.0.0
+262 silly currentTree +-- ipaddr.js@1.1.1
+262 silly currentTree +-- is-arrayish@0.2.1
+262 silly currentTree +-- is-binary-path@1.0.1
+262 silly currentTree +-- is-buffer@1.1.4
+262 silly currentTree +-- is-builtin-module@1.0.0
+262 silly currentTree +-- is-dotfile@1.0.2
+262 silly currentTree +-- is-equal-shallow@0.1.3
+262 silly currentTree +-- is-extendable@0.1.1
+262 silly currentTree +-- is-extglob@1.0.0
+262 silly currentTree +-- is-finite@1.0.2
+262 silly currentTree +-- is-fullwidth-code-point@1.0.0
+262 silly currentTree +-- is-glob@2.0.1
+262 silly currentTree +-- is-my-json-valid@2.15.0
+262 silly currentTree +-- is-npm@1.0.0
+262 silly currentTree +-- is-number@2.1.0
+262 silly currentTree +-- is-obj@1.0.1
+262 silly currentTree +-- is-posix-bracket@0.1.1
+262 silly currentTree +-- is-primitive@2.0.0
+262 silly currentTree +-- is-promise@2.1.0
+262 silly currentTree +-- is-property@1.0.2
+262 silly currentTree +-- is-redirect@1.0.0
+262 silly currentTree +-- is-retry-allowed@1.1.0
+262 silly currentTree +-- is-stream@1.1.0
+262 silly currentTree +-- is-typedarray@1.0.0
+262 silly currentTree +-- is-utf8@0.2.1
+262 silly currentTree +-- isarray@1.0.0
+262 silly currentTree +-- isobject@2.1.0
+262 silly currentTree +-- isomorphic-fetch@2.2.1
+262 silly currentTree +-- isstream@0.1.2
+262 silly currentTree +-- jju@1.3.0
+262 silly currentTree +-- jodid25519@1.0.2
+262 silly currentTree +-- js-tokens@2.0.0
+262 silly currentTree +-- jsbn@0.1.0
+262 silly currentTree +-- jsesc@1.3.0
+262 silly currentTree +-- json-parse-helpfulerror@1.0.3
+262 silly currentTree +-- json-schema@0.2.3
+262 silly currentTree +-- json-server@0.8.23
+262 silly currentTree +-- json-stringify-safe@5.0.1
+262 silly currentTree +-- json5@0.5.1
+262 silly currentTree +-- jsonpointer@4.0.1
+262 silly currentTree +-- jsprim@1.3.1
+262 silly currentTree +-- kind-of@3.1.0
+262 silly currentTree +-- latest-version@2.0.0
+262 silly currentTree +-- lazy-req@1.1.0
+262 silly currentTree +-- lcid@1.0.0
+262 silly currentTree +-- load-json-file@1.1.0
+262 silly currentTree +-- lodash.assign@4.2.0
+262 silly currentTree +-- lodash@4.17.3
+262 silly currentTree +-- loose-envify@1.3.0
+262 silly currentTree +-- lowdb@0.13.1
+262 silly currentTree +-- lowercase-keys@1.0.0
+262 silly currentTree +-- media-typer@0.3.0
+262 silly currentTree +-- merge-descriptors@1.0.1
+262 silly currentTree +-- method-override@2.3.7
+262 silly currentTree | `-- debug@2.3.3
+262 silly currentTree +-- methods@1.1.2
+262 silly currentTree +-- micromatch@2.3.11
+262 silly currentTree +-- mime-db@1.25.0
+262 silly currentTree +-- mime-types@2.1.13
+262 silly currentTree +-- mime@1.3.4
+262 silly currentTree +-- minimatch@3.0.3
+262 silly currentTree +-- minimist@0.0.8
+262 silly currentTree +-- mkdirp@0.5.1
+262 silly currentTree +-- morgan@1.7.0
+262 silly currentTree | +-- debug@2.2.0
+262 silly currentTree | `-- ms@0.7.1
+262 silly currentTree +-- ms@0.7.2
+262 silly currentTree +-- negotiator@0.6.1
+262 silly currentTree +-- node-fetch@1.6.3
+262 silly currentTree +-- node-status-codes@1.0.0
+262 silly currentTree +-- node-uuid@1.4.7
+262 silly currentTree +-- normalize-package-data@2.3.5
+262 silly currentTree +-- normalize-path@2.0.1
+262 silly currentTree +-- number-is-nan@1.0.1
+262 silly currentTree +-- oauth-sign@0.8.2
+262 silly currentTree +-- object-assign@4.1.0
+262 silly currentTree +-- object.omit@2.0.1
+262 silly currentTree +-- on-finished@2.3.0
+262 silly currentTree +-- on-headers@1.0.1
+262 silly currentTree +-- os-homedir@1.0.2
+262 silly currentTree +-- os-locale@1.4.0
+262 silly currentTree +-- os-tmpdir@1.0.2
+262 silly currentTree +-- osenv@0.1.4
+262 silly currentTree +-- package-json@2.4.0
+262 silly currentTree +-- parse-glob@3.0.4
+262 silly currentTree +-- parse-json@2.2.0
+262 silly currentTree +-- parseurl@1.3.1
+262 silly currentTree +-- path-exists@2.1.0
+262 silly currentTree +-- path-is-absolute@1.0.1
+262 silly currentTree +-- path-to-regexp@0.1.7
+262 silly currentTree +-- path-type@1.1.0
+262 silly currentTree +-- pify@2.3.0
+262 silly currentTree +-- pinkie-promise@2.0.1
+262 silly currentTree +-- pinkie@2.0.4
+262 silly currentTree +-- pluralize@3.1.0
+262 silly currentTree +-- prepend-http@1.0.4
+262 silly currentTree +-- preserve@0.2.0
+262 silly currentTree +-- private@0.1.6
+262 silly currentTree +-- process-nextick-args@1.0.7
+262 silly currentTree +-- proxy-addr@1.1.2
+262 silly currentTree +-- punycode@1.4.1
+262 silly currentTree +-- qs@6.2.0
+262 silly currentTree +-- randomatic@1.1.6
+262 silly currentTree +-- range-parser@1.2.0
+262 silly currentTree +-- raw-body@2.1.7
+262 silly currentTree +-- rc@1.1.6
+262 silly currentTree | `-- minimist@1.2.0
+262 silly currentTree +-- read-all-stream@3.1.0
+262 silly currentTree +-- read-pkg-up@1.0.1
+262 silly currentTree +-- read-pkg@1.1.0
+262 silly currentTree +-- readable-stream@2.2.2
+262 silly currentTree +-- readdirp@2.1.0
+262 silly currentTree +-- regenerator-runtime@0.10.1
+262 silly currentTree +-- regex-cache@0.4.3
+262 silly currentTree +-- registry-auth-token@3.1.0
+262 silly currentTree +-- registry-url@3.1.0
+262 silly currentTree +-- repeat-element@1.1.2
+262 silly currentTree +-- repeat-string@1.6.1
+262 silly currentTree +-- repeating@2.0.1
+262 silly currentTree +-- request@2.79.0
+262 silly currentTree | +-- qs@6.3.0
+262 silly currentTree | `-- uuid@3.0.1
+262 silly currentTree +-- require-directory@2.1.1
+262 silly currentTree +-- require-main-filename@1.0.1
+262 silly currentTree +-- semver-diff@2.1.0
+262 silly currentTree +-- semver@5.3.0
+262 silly currentTree +-- send@0.14.1
+262 silly currentTree | +-- debug@2.2.0
+262 silly currentTree | `-- ms@0.7.1
+262 silly currentTree +-- serve-static@1.11.1
+262 silly currentTree +-- server-destroy@1.0.1
+262 silly currentTree +-- set-blocking@2.0.0
+262 silly currentTree +-- set-immediate-shim@1.0.1
+262 silly currentTree +-- setprototypeof@1.0.2
+262 silly currentTree +-- slash@1.0.0
+262 silly currentTree +-- slide@1.1.6
+262 silly currentTree +-- sntp@1.0.9
+262 silly currentTree +-- source-map-support@0.4.8
+262 silly currentTree +-- source-map@0.5.6
+262 silly currentTree +-- spdx-correct@1.0.2
+262 silly currentTree +-- spdx-expression-parse@1.0.4
+262 silly currentTree +-- spdx-license-ids@1.2.2
+262 silly currentTree +-- sshpk@1.10.1
+262 silly currentTree | `-- assert-plus@1.0.0
+262 silly currentTree +-- statuses@1.3.1
+262 silly currentTree +-- steno@0.4.4
+262 silly currentTree +-- string_decoder@0.10.31
+262 silly currentTree +-- string-width@1.0.2
+262 silly currentTree +-- stringstream@0.0.5
+262 silly currentTree +-- strip-ansi@3.0.1
+262 silly currentTree +-- strip-bom@2.0.0
+262 silly currentTree +-- strip-json-comments@1.0.4
+262 silly currentTree +-- supports-color@2.0.0
+262 silly currentTree +-- timed-out@3.1.0
+262 silly currentTree +-- to-fast-properties@1.0.2
+262 silly currentTree +-- tough-cookie@2.3.2
+262 silly currentTree +-- tunnel-agent@0.4.3
+262 silly currentTree +-- tweetnacl@0.14.5
+262 silly currentTree +-- type-is@1.6.14
+262 silly currentTree +-- underscore-db@0.10.0
+262 silly currentTree +-- unpipe@1.0.0
+262 silly currentTree +-- unzip-response@1.0.2
+262 silly currentTree +-- update-notifier@1.0.3
+262 silly currentTree +-- url-parse-lax@1.0.0
+262 silly currentTree +-- util-deprecate@1.0.2
+262 silly currentTree +-- utils-merge@1.0.0
+262 silly currentTree +-- uuid@2.0.3
+262 silly currentTree +-- validate-npm-package-license@3.0.1
+262 silly currentTree +-- vary@1.1.0
+262 silly currentTree +-- verror@1.3.6
+262 silly currentTree +-- whatwg-fetch@2.0.1
+262 silly currentTree +-- which-module@1.0.0
+262 silly currentTree +-- widest-line@1.0.0
+262 silly currentTree +-- window-size@0.2.0
+262 silly currentTree +-- wrap-ansi@2.1.0
+262 silly currentTree +-- write-file-atomic@1.2.0
+262 silly currentTree +-- xdg-basedir@2.0.0
+262 silly currentTree +-- xtend@4.0.1
+262 silly currentTree +-- y18n@3.2.1
+262 silly currentTree +-- yargs-parser@2.4.1
+262 silly currentTree | `-- camelcase@3.0.0
+262 silly currentTree `-- yargs@4.8.1
+263 silly idealTree callback_and_more@1.0.0
+263 silly idealTree +-- accepts@1.3.3
+263 silly idealTree +-- ansi-align@1.1.0
+263 silly idealTree +-- ansi-regex@2.0.0
+263 silly idealTree +-- ansi-styles@2.2.1
+263 silly idealTree +-- anymatch@1.3.0
+263 silly idealTree +-- arr-diff@2.0.0
+263 silly idealTree +-- arr-flatten@1.0.1
+263 silly idealTree +-- array-flatten@1.1.1
+263 silly idealTree +-- array-unique@0.2.1
+263 silly idealTree +-- arrify@1.0.1
+263 silly idealTree +-- asn1@0.2.3
+263 silly idealTree +-- assert-plus@0.2.0
+263 silly idealTree +-- async-each@1.0.1
+263 silly idealTree +-- asynckit@0.4.0
+263 silly idealTree +-- aws-sign2@0.6.0
+263 silly idealTree +-- aws4@1.5.0
+263 silly idealTree +-- babel-code-frame@6.20.0
+263 silly idealTree +-- babel-core@6.21.0
+263 silly idealTree +-- babel-generator@6.21.0
+263 silly idealTree +-- babel-helper-builder-binary-assignment-operator-visitor@6.18.0
+263 silly idealTree +-- babel-helper-call-delegate@6.18.0
+263 silly idealTree +-- babel-helper-explode-assignable-expression@6.18.0
+263 silly idealTree +-- babel-helper-function-name@6.18.0
+263 silly idealTree +-- babel-helper-get-function-arity@6.18.0
+263 silly idealTree +-- babel-helper-hoist-variables@6.18.0
+263 silly idealTree +-- babel-helper-remap-async-to-generator@6.20.3
+263 silly idealTree +-- babel-helpers@6.16.0
+263 silly idealTree +-- babel-messages@6.8.0
+263 silly idealTree +-- babel-plugin-syntax-async-functions@6.13.0
+263 silly idealTree +-- babel-plugin-syntax-async-generators@6.13.0
+263 silly idealTree +-- babel-plugin-syntax-exponentiation-operator@6.13.0
+263 silly idealTree +-- babel-plugin-syntax-object-rest-spread@6.13.0
+263 silly idealTree +-- babel-plugin-syntax-trailing-function-commas@6.20.0
+263 silly idealTree +-- babel-plugin-transform-async-generator-functions@6.17.0
+263 silly idealTree +-- babel-plugin-transform-async-to-generator@6.16.0
+263 silly idealTree +-- babel-plugin-transform-es2015-destructuring@6.19.0
+263 silly idealTree +-- babel-plugin-transform-es2015-function-name@6.9.0
+263 silly idealTree +-- babel-plugin-transform-es2015-modules-commonjs@6.18.0
+263 silly idealTree +-- babel-plugin-transform-es2015-parameters@6.21.0
+263 silly idealTree +-- babel-plugin-transform-exponentiation-operator@6.8.0
+263 silly idealTree +-- babel-plugin-transform-object-rest-spread@6.20.2
+263 silly idealTree +-- babel-plugin-transform-strict-mode@6.18.0
+263 silly idealTree +-- babel-polyfill@6.20.0
+263 silly idealTree +-- babel-preset-es2015-node6@0.3.0
+263 silly idealTree +-- babel-preset-stage-3@6.17.0
+263 silly idealTree +-- babel-register@6.18.0
+263 silly idealTree +-- babel-runtime@6.20.0
+263 silly idealTree +-- babel-template@6.16.0
+263 silly idealTree +-- babel-traverse@6.21.0
+263 silly idealTree +-- babel-types@6.21.0
+263 silly idealTree +-- babylon@6.14.1
+263 silly idealTree +-- balanced-match@0.4.2
+263 silly idealTree +-- basic-auth@1.0.4
+263 silly idealTree +-- bcrypt-pbkdf@1.0.0
+263 silly idealTree +-- binary-extensions@1.8.0
+263 silly idealTree +-- body-parser@1.15.2
+263 silly idealTree | +-- debug@2.2.0
+263 silly idealTree | `-- ms@0.7.1
+263 silly idealTree +-- boom@2.10.1
+263 silly idealTree +-- boxen@0.6.0
+263 silly idealTree +-- brace-expansion@1.1.6
+263 silly idealTree +-- braces@1.8.5
+263 silly idealTree +-- buffer-shims@1.0.0
+263 silly idealTree +-- builtin-modules@1.1.1
+263 silly idealTree +-- bytes@2.4.0
+263 silly idealTree +-- camelcase@2.1.1
+263 silly idealTree +-- capture-stack-trace@1.0.0
+263 silly idealTree +-- caseless@0.11.0
+263 silly idealTree +-- chalk@1.1.3
+263 silly idealTree +-- chokidar@1.6.1
+263 silly idealTree +-- cli-boxes@1.0.0
+263 silly idealTree +-- cliui@3.2.0
+263 silly idealTree +-- co@4.6.0
+263 silly idealTree +-- code-point-at@1.1.0
+263 silly idealTree +-- combined-stream@1.0.5
+263 silly idealTree +-- commander@2.9.0
+263 silly idealTree +-- compressible@2.0.9
+263 silly idealTree +-- compression@1.6.2
+263 silly idealTree | +-- bytes@2.3.0
+263 silly idealTree | +-- debug@2.2.0
+263 silly idealTree | `-- ms@0.7.1
+263 silly idealTree +-- concat-map@0.0.1
+263 silly idealTree +-- configstore@2.1.0
+263 silly idealTree +-- connect-pause@0.1.0
+263 silly idealTree +-- content-disposition@0.5.1
+263 silly idealTree +-- content-type@1.0.2
+263 silly idealTree +-- convert-source-map@1.3.0
+263 silly idealTree +-- cookie-signature@1.0.6
+263 silly idealTree +-- cookie@0.3.1
+263 silly idealTree +-- core-js@2.4.1
+263 silly idealTree +-- core-util-is@1.0.2
+263 silly idealTree +-- cors@2.8.1
+263 silly idealTree +-- create-error-class@3.0.2
+263 silly idealTree +-- cryptiles@2.0.5
+263 silly idealTree +-- dashdash@1.14.1
+263 silly idealTree | `-- assert-plus@1.0.0
+263 silly idealTree +-- debug@2.5.2
+263 silly idealTree +-- decamelize@1.2.0
+263 silly idealTree +-- deep-extend@0.4.1
+263 silly idealTree +-- delayed-stream@1.0.0
+263 silly idealTree +-- depd@1.1.0
+263 silly idealTree +-- destroy@1.0.4
+263 silly idealTree +-- detect-indent@4.0.0
+263 silly idealTree +-- dot-prop@3.0.0
+263 silly idealTree +-- duplexer2@0.1.4
+263 silly idealTree +-- ecc-jsbn@0.1.1
+263 silly idealTree +-- ee-first@1.1.1
+263 silly idealTree +-- encodeurl@1.0.1
+263 silly idealTree +-- encoding@0.1.12
+263 silly idealTree +-- error-ex@1.3.0
+263 silly idealTree +-- errorhandler@1.5.0
+263 silly idealTree +-- escape-html@1.0.3
+263 silly idealTree +-- escape-string-regexp@1.0.5
+263 silly idealTree +-- esutils@2.0.2
+263 silly idealTree +-- etag@1.7.0
+263 silly idealTree +-- expand-brackets@0.1.5
+263 silly idealTree +-- expand-range@1.8.2
+263 silly idealTree +-- express@4.14.0
+263 silly idealTree | +-- debug@2.2.0
+263 silly idealTree | `-- ms@0.7.1
+263 silly idealTree +-- extend@3.0.0
+263 silly idealTree +-- extglob@0.3.2
+263 silly idealTree +-- extsprintf@1.0.2
+263 silly idealTree +-- filename-regex@2.0.0
+263 silly idealTree +-- fill-range@2.2.3
+263 silly idealTree +-- filled-array@1.1.0
+263 silly idealTree +-- finalhandler@0.5.0
+263 silly idealTree | +-- debug@2.2.0
+263 silly idealTree | `-- ms@0.7.1
+263 silly idealTree +-- find-up@1.1.2
+263 silly idealTree +-- for-in@0.1.6
+263 silly idealTree +-- for-own@0.1.4
+263 silly idealTree +-- forever-agent@0.6.1
+263 silly idealTree +-- form-data@2.1.2
+263 silly idealTree +-- forwarded@0.1.0
+263 silly idealTree +-- fresh@0.3.0
+263 silly idealTree +-- generate-function@2.0.0
+263 silly idealTree +-- generate-object-property@1.2.0
+263 silly idealTree +-- get-caller-file@1.0.2
+263 silly idealTree +-- getpass@0.1.6
+263 silly idealTree | `-- assert-plus@1.0.0
+263 silly idealTree +-- glob-base@0.3.0
+263 silly idealTree +-- glob-parent@2.0.0
+263 silly idealTree +-- globals@9.14.0
+263 silly idealTree +-- got@5.7.1
+263 silly idealTree +-- graceful-fs@4.1.11
+263 silly idealTree +-- graceful-readlink@1.0.1
+263 silly idealTree +-- har-validator@2.0.6
+263 silly idealTree +-- has-ansi@2.0.0
+263 silly idealTree +-- hawk@3.1.3
+263 silly idealTree +-- hoek@2.16.3
+263 silly idealTree +-- home-or-tmp@2.0.0
+263 silly idealTree +-- hosted-git-info@2.1.5
+263 silly idealTree +-- http-errors@1.5.1
+263 silly idealTree +-- http-signature@1.1.1
+263 silly idealTree +-- iconv-lite@0.4.13
+263 silly idealTree +-- imurmurhash@0.1.4
+263 silly idealTree +-- inherits@2.0.3
+263 silly idealTree +-- ini@1.3.4
+263 silly idealTree +-- invariant@2.2.2
+263 silly idealTree +-- invert-kv@1.0.0
+263 silly idealTree +-- ipaddr.js@1.1.1
+263 silly idealTree +-- is-arrayish@0.2.1
+263 silly idealTree +-- is-binary-path@1.0.1
+263 silly idealTree +-- is-buffer@1.1.4
+263 silly idealTree +-- is-builtin-module@1.0.0
+263 silly idealTree +-- is-dotfile@1.0.2
+263 silly idealTree +-- is-equal-shallow@0.1.3
+263 silly idealTree +-- is-extendable@0.1.1
+263 silly idealTree +-- is-extglob@1.0.0
+263 silly idealTree +-- is-finite@1.0.2
+263 silly idealTree +-- is-fullwidth-code-point@1.0.0
+263 silly idealTree +-- is-glob@2.0.1
+263 silly idealTree +-- is-my-json-valid@2.15.0
+263 silly idealTree +-- is-npm@1.0.0
+263 silly idealTree +-- is-number@2.1.0
+263 silly idealTree +-- is-obj@1.0.1
+263 silly idealTree +-- is-posix-bracket@0.1.1
+263 silly idealTree +-- is-primitive@2.0.0
+263 silly idealTree +-- is-promise@2.1.0
+263 silly idealTree +-- is-property@1.0.2
+263 silly idealTree +-- is-redirect@1.0.0
+263 silly idealTree +-- is-retry-allowed@1.1.0
+263 silly idealTree +-- is-stream@1.1.0
+263 silly idealTree +-- is-typedarray@1.0.0
+263 silly idealTree +-- is-utf8@0.2.1
+263 silly idealTree +-- isarray@1.0.0
+263 silly idealTree +-- isobject@2.1.0
+263 silly idealTree +-- isomorphic-fetch@2.2.1
+263 silly idealTree +-- isstream@0.1.2
+263 silly idealTree +-- jju@1.3.0
+263 silly idealTree +-- jodid25519@1.0.2
+263 silly idealTree +-- js-tokens@2.0.0
+263 silly idealTree +-- jsbn@0.1.0
+263 silly idealTree +-- jsesc@1.3.0
+263 silly idealTree +-- json-parse-helpfulerror@1.0.3
+263 silly idealTree +-- json-schema@0.2.3
+263 silly idealTree +-- json-server@0.8.23
+263 silly idealTree | `-- lowdb@0.13.1
+263 silly idealTree +-- json-stringify-safe@5.0.1
+263 silly idealTree +-- json5@0.5.1
+263 silly idealTree +-- jsonpointer@4.0.1
+263 silly idealTree +-- jsprim@1.3.1
+263 silly idealTree +-- kind-of@3.1.0
+263 silly idealTree +-- latest-version@2.0.0
+263 silly idealTree +-- lazy-req@1.1.0
+263 silly idealTree +-- lcid@1.0.0
+263 silly idealTree +-- load-json-file@1.1.0
+263 silly idealTree +-- lodash.assign@4.2.0
+263 silly idealTree +-- lodash@4.17.3
+263 silly idealTree +-- loose-envify@1.3.0
+263 silly idealTree +-- lowdb@0.14.0
+263 silly idealTree +-- lowercase-keys@1.0.0
+263 silly idealTree +-- media-typer@0.3.0
+263 silly idealTree +-- merge-descriptors@1.0.1
+263 silly idealTree +-- method-override@2.3.7
+263 silly idealTree | `-- debug@2.3.3
+263 silly idealTree +-- methods@1.1.2
+263 silly idealTree +-- micromatch@2.3.11
+263 silly idealTree +-- mime-db@1.25.0
+263 silly idealTree +-- mime-types@2.1.13
+263 silly idealTree +-- mime@1.3.4
+263 silly idealTree +-- minimatch@3.0.3
+263 silly idealTree +-- minimist@0.0.8
+263 silly idealTree +-- mkdirp@0.5.1
+263 silly idealTree +-- morgan@1.7.0
+263 silly idealTree | +-- debug@2.2.0
+263 silly idealTree | `-- ms@0.7.1
+263 silly idealTree +-- ms@0.7.2
+263 silly idealTree +-- negotiator@0.6.1
+263 silly idealTree +-- node-fetch@1.6.3
+263 silly idealTree +-- node-status-codes@1.0.0
+263 silly idealTree +-- node-uuid@1.4.7
+263 silly idealTree +-- normalize-package-data@2.3.5
+263 silly idealTree +-- normalize-path@2.0.1
+263 silly idealTree +-- number-is-nan@1.0.1
+263 silly idealTree +-- oauth-sign@0.8.2
+263 silly idealTree +-- object-assign@4.1.0
+263 silly idealTree +-- object.omit@2.0.1
+263 silly idealTree +-- on-finished@2.3.0
+263 silly idealTree +-- on-headers@1.0.1
+263 silly idealTree +-- os-homedir@1.0.2
+263 silly idealTree +-- os-locale@1.4.0
+263 silly idealTree +-- os-tmpdir@1.0.2
+263 silly idealTree +-- osenv@0.1.4
+263 silly idealTree +-- package-json@2.4.0
+263 silly idealTree +-- parse-glob@3.0.4
+263 silly idealTree +-- parse-json@2.2.0
+263 silly idealTree +-- parseurl@1.3.1
+263 silly idealTree +-- path-exists@2.1.0
+263 silly idealTree +-- path-is-absolute@1.0.1
+263 silly idealTree +-- path-to-regexp@0.1.7
+263 silly idealTree +-- path-type@1.1.0
+263 silly idealTree +-- pify@2.3.0
+263 silly idealTree +-- pinkie-promise@2.0.1
+263 silly idealTree +-- pinkie@2.0.4
+263 silly idealTree +-- pluralize@3.1.0
+263 silly idealTree +-- prepend-http@1.0.4
+263 silly idealTree +-- preserve@0.2.0
+263 silly idealTree +-- private@0.1.6
+263 silly idealTree +-- process-nextick-args@1.0.7
+263 silly idealTree +-- proxy-addr@1.1.2
+263 silly idealTree +-- punycode@1.4.1
+263 silly idealTree +-- qs@6.2.0
+263 silly idealTree +-- randomatic@1.1.6
+263 silly idealTree +-- range-parser@1.2.0
+263 silly idealTree +-- raw-body@2.1.7
+263 silly idealTree +-- rc@1.1.6
+263 silly idealTree | `-- minimist@1.2.0
+263 silly idealTree +-- read-all-stream@3.1.0
+263 silly idealTree +-- read-pkg-up@1.0.1
+263 silly idealTree +-- read-pkg@1.1.0
+263 silly idealTree +-- readable-stream@2.2.2
+263 silly idealTree +-- readdirp@2.1.0
+263 silly idealTree +-- regenerator-runtime@0.10.1
+263 silly idealTree +-- regex-cache@0.4.3
+263 silly idealTree +-- registry-auth-token@3.1.0
+263 silly idealTree +-- registry-url@3.1.0
+263 silly idealTree +-- repeat-element@1.1.2
+263 silly idealTree +-- repeat-string@1.6.1
+263 silly idealTree +-- repeating@2.0.1
+263 silly idealTree +-- request@2.79.0
+263 silly idealTree | +-- qs@6.3.0
+263 silly idealTree | `-- uuid@3.0.1
+263 silly idealTree +-- require-directory@2.1.1
+263 silly idealTree +-- require-main-filename@1.0.1
+263 silly idealTree +-- semver-diff@2.1.0
+263 silly idealTree +-- semver@5.3.0
+263 silly idealTree +-- send@0.14.1
+263 silly idealTree | +-- debug@2.2.0
+263 silly idealTree | `-- ms@0.7.1
+263 silly idealTree +-- serve-static@1.11.1
+263 silly idealTree +-- server-destroy@1.0.1
+263 silly idealTree +-- set-blocking@2.0.0
+263 silly idealTree +-- set-immediate-shim@1.0.1
+263 silly idealTree +-- setprototypeof@1.0.2
+263 silly idealTree +-- slash@1.0.0
+263 silly idealTree +-- slide@1.1.6
+263 silly idealTree +-- sntp@1.0.9
+263 silly idealTree +-- source-map-support@0.4.8
+263 silly idealTree +-- source-map@0.5.6
+263 silly idealTree +-- spdx-correct@1.0.2
+263 silly idealTree +-- spdx-expression-parse@1.0.4
+263 silly idealTree +-- spdx-license-ids@1.2.2
+263 silly idealTree +-- sshpk@1.10.1
+263 silly idealTree | `-- assert-plus@1.0.0
+263 silly idealTree +-- statuses@1.3.1
+263 silly idealTree +-- steno@0.4.4
+263 silly idealTree +-- string_decoder@0.10.31
+263 silly idealTree +-- string-width@1.0.2
+263 silly idealTree +-- stringstream@0.0.5
+263 silly idealTree +-- strip-ansi@3.0.1
+263 silly idealTree +-- strip-bom@2.0.0
+263 silly idealTree +-- strip-json-comments@1.0.4
+263 silly idealTree +-- supports-color@2.0.0
+263 silly idealTree +-- timed-out@3.1.0
+263 silly idealTree +-- to-fast-properties@1.0.2
+263 silly idealTree +-- tough-cookie@2.3.2
+263 silly idealTree +-- tunnel-agent@0.4.3
+263 silly idealTree +-- tweetnacl@0.14.5
+263 silly idealTree +-- type-is@1.6.14
+263 silly idealTree +-- underscore-db@0.10.0
+263 silly idealTree +-- unpipe@1.0.0
+263 silly idealTree +-- unzip-response@1.0.2
+263 silly idealTree +-- update-notifier@1.0.3
+263 silly idealTree +-- url-parse-lax@1.0.0
+263 silly idealTree +-- util-deprecate@1.0.2
+263 silly idealTree +-- utils-merge@1.0.0
+263 silly idealTree +-- uuid@2.0.3
+263 silly idealTree +-- validate-npm-package-license@3.0.1
+263 silly idealTree +-- vary@1.1.0
+263 silly idealTree +-- verror@1.3.6
+263 silly idealTree +-- whatwg-fetch@2.0.1
+263 silly idealTree +-- which-module@1.0.0
+263 silly idealTree +-- widest-line@1.0.0
+263 silly idealTree +-- window-size@0.2.0
+263 silly idealTree +-- wrap-ansi@2.1.0
+263 silly idealTree +-- write-file-atomic@1.2.0
+263 silly idealTree +-- xdg-basedir@2.0.0
+263 silly idealTree +-- xtend@4.0.1
+263 silly idealTree +-- y18n@3.2.1
+263 silly idealTree +-- yargs-parser@2.4.1
+263 silly idealTree | `-- camelcase@3.0.0
+263 silly idealTree `-- yargs@4.8.1
+264 silly generateActionsToTake Starting
+265 silly install generateActionsToTake
+266 silly generateActionsToTake Finishing
+267 silly diffTrees action count 2
+268 silly diffTrees add lowdb@0.13.1
+269 silly diffTrees update lowdb@0.14.0
+270 silly decomposeActions action count 16
+271 silly decomposeActions fetch lowdb@0.13.1
+272 silly decomposeActions extract lowdb@0.13.1
+273 silly decomposeActions test lowdb@0.13.1
+274 silly decomposeActions preinstall lowdb@0.13.1
+275 silly decomposeActions build lowdb@0.13.1
+276 silly decomposeActions install lowdb@0.13.1
+277 silly decomposeActions postinstall lowdb@0.13.1
+278 silly decomposeActions finalize lowdb@0.13.1
+279 silly decomposeActions fetch lowdb@0.14.0
+280 silly decomposeActions extract lowdb@0.14.0
+281 silly decomposeActions test lowdb@0.14.0
+282 silly decomposeActions preinstall lowdb@0.14.0
+283 silly decomposeActions build lowdb@0.14.0
+284 silly decomposeActions install lowdb@0.14.0
+285 silly decomposeActions postinstall lowdb@0.14.0
+286 silly decomposeActions finalize lowdb@0.14.0
+287 silly executeActions Starting
+288 silly install executeActions
+289 silly doSerial global-install 0
+290 silly doParallel fetch 2
+291 verbose correctMkdir C:\Users\ly-litao\AppData\Roaming\npm-cache\_locks correctMkdir not in flight; initializing
+292 verbose lock using C:\Users\ly-litao\AppData\Roaming\npm-cache\_locks\staging-50d8376f005d4e98.lock for D:\node\learnCallback\node_modules\.staging
+293 silly doParallel extract 2
+294 silly extract lowdb@0.13.1
+295 silly extract lowdb@0.14.0
+296 verbose unbuild node_modules\.staging\lowdb-a7f9b04f
+297 verbose unbuild node_modules\.staging\lowdb-099a2e58
+298 silly gentlyRm D:\node\learnCallback\node_modules\.staging\lowdb-099a2e58 is being purged from base D:\node\learnCallback
+299 verbose gentlyRm don't care about contents; nuking D:\node\learnCallback\node_modules\.staging\lowdb-099a2e58
+300 verbose tar unpack C:\Users\ly-litao\AppData\Roaming\npm-cache\lowdb\0.14.0\package.tgz
+301 verbose tar unpacking to D:\node\learnCallback\node_modules\.staging\lowdb-099a2e58
+302 silly gentlyRm D:\node\learnCallback\node_modules\.staging\lowdb-099a2e58 is being purged
+303 verbose gentlyRm don't care about contents; nuking D:\node\learnCallback\node_modules\.staging\lowdb-099a2e58
+304 silly gentlyRm D:\node\learnCallback\node_modules\.staging\lowdb-a7f9b04f is being purged from base D:\node\learnCallback
+305 verbose gentlyRm don't care about contents; nuking D:\node\learnCallback\node_modules\.staging\lowdb-a7f9b04f
+306 silly gunzTarPerm modes [ '777', '666' ]
+307 verbose tar unpack C:\Users\ly-litao\AppData\Roaming\npm-cache\lowdb\0.13.1\package.tgz
+308 verbose tar unpacking to D:\node\learnCallback\node_modules\.staging\lowdb-a7f9b04f
+309 silly gentlyRm D:\node\learnCallback\node_modules\.staging\lowdb-a7f9b04f is being purged
+310 verbose gentlyRm don't care about contents; nuking D:\node\learnCallback\node_modules\.staging\lowdb-a7f9b04f
+311 silly gunzTarPerm modes [ '777', '666' ]
+312 silly gunzTarPerm extractEntry package.json
+313 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+314 silly gunzTarPerm extractEntry package.json
+315 silly gunzTarPerm modified mode [ 'package.json', 436, 438 ]
+316 silly gunzTarPerm extractEntry .npmignore
+317 silly gunzTarPerm modified mode [ '.npmignore', 420, 438 ]
+318 silly gunzTarPerm extractEntry README.md
+319 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+320 silly gunzTarPerm extractEntry .npmignore
+321 silly gunzTarPerm modified mode [ '.npmignore', 436, 438 ]
+322 silly gunzTarPerm extractEntry README.md
+323 silly gunzTarPerm modified mode [ 'README.md', 436, 438 ]
+324 silly gunzTarPerm extractEntry LICENSE
+325 silly gunzTarPerm modified mode [ 'LICENSE', 436, 438 ]
+326 silly gunzTarPerm extractEntry webpack.config.js
+327 silly gunzTarPerm modified mode [ 'webpack.config.js', 436, 438 ]
+328 silly gunzTarPerm extractEntry LICENSE
+329 silly gunzTarPerm modified mode [ 'LICENSE', 420, 438 ]
+330 silly gunzTarPerm extractEntry webpack.config.js
+331 silly gunzTarPerm modified mode [ 'webpack.config.js', 420, 438 ]
+332 silly gunzTarPerm extractEntry dist/lowdb.js
+333 silly gunzTarPerm modified mode [ 'dist/lowdb.js', 436, 438 ]
+334 silly gunzTarPerm extractEntry dist/lowdb.min.js
+335 silly gunzTarPerm modified mode [ 'dist/lowdb.min.js', 436, 438 ]
+336 silly gunzTarPerm extractEntry lib/_index.js
+337 silly gunzTarPerm modified mode [ 'lib/_index.js', 436, 438 ]
+338 silly gunzTarPerm extractEntry lib/browser.js
+339 silly gunzTarPerm modified mode [ 'lib/browser.js', 436, 438 ]
+340 silly gunzTarPerm extractEntry lib/file-async.js
+341 silly gunzTarPerm modified mode [ 'lib/file-async.js', 436, 438 ]
+342 silly gunzTarPerm extractEntry lib/file-sync.js
+343 silly gunzTarPerm modified mode [ 'lib/file-sync.js', 436, 438 ]
+344 silly gunzTarPerm extractEntry lib/index.browser.js
+345 silly gunzTarPerm modified mode [ 'lib/index.browser.js', 436, 438 ]
+346 silly gunzTarPerm extractEntry lib/index.node.js
+347 silly gunzTarPerm modified mode [ 'lib/index.node.js', 436, 438 ]
+348 silly gunzTarPerm extractEntry lib/json.js
+349 silly gunzTarPerm modified mode [ 'lib/json.js', 436, 438 ]
+350 silly gunzTarPerm extractEntry .babelrc
+351 silly gunzTarPerm modified mode [ '.babelrc', 436, 438 ]
+352 silly gunzTarPerm extractEntry examples/README.md
+353 silly gunzTarPerm modified mode [ 'examples/README.md', 436, 438 ]
+354 silly gunzTarPerm extractEntry dist/lowdb.js
+355 silly gunzTarPerm modified mode [ 'dist/lowdb.js', 420, 438 ]
+356 silly gunzTarPerm extractEntry dist/lowdb.min.js
+357 silly gunzTarPerm modified mode [ 'dist/lowdb.min.js', 420, 438 ]
+358 silly gunzTarPerm extractEntry lib/_index.js
+359 silly gunzTarPerm modified mode [ 'lib/_index.js', 420, 438 ]
+360 silly gunzTarPerm extractEntry lib/browser.js
+361 silly gunzTarPerm modified mode [ 'lib/browser.js', 420, 438 ]
+362 silly gunzTarPerm extractEntry lib/file-async.js
+363 silly gunzTarPerm modified mode [ 'lib/file-async.js', 420, 438 ]
+364 silly gunzTarPerm extractEntry lib/file-sync.js
+365 silly gunzTarPerm modified mode [ 'lib/file-sync.js', 420, 438 ]
+366 silly gunzTarPerm extractEntry lib/index.browser.js
+367 silly gunzTarPerm modified mode [ 'lib/index.browser.js', 420, 438 ]
+368 silly gunzTarPerm extractEntry lib/index.node.js
+369 silly gunzTarPerm modified mode [ 'lib/index.node.js', 420, 438 ]
+370 silly gunzTarPerm extractEntry lib/json.js
+371 silly gunzTarPerm modified mode [ 'lib/json.js', 420, 438 ]
+372 silly gunzTarPerm extractEntry lowdb.d.ts
+373 silly gunzTarPerm modified mode [ 'lowdb.d.ts', 420, 438 ]
+374 silly gunzTarPerm extractEntry .babelrc
+375 silly gunzTarPerm modified mode [ '.babelrc', 420, 438 ]
+376 silly gunzTarPerm extractEntry examples/README.md
+377 silly gunzTarPerm modified mode [ 'examples/README.md', 420, 438 ]
+378 silly gentlyRm D:\node\learnCallback\node_modules\.staging\lowdb-a7f9b04f\node_modules is being purged
+379 verbose gentlyRm don't care about contents; nuking D:\node\learnCallback\node_modules\.staging\lowdb-a7f9b04f\node_modules
+380 silly gentlyRm D:\node\learnCallback\node_modules\.staging\lowdb-099a2e58\node_modules is being purged
+381 verbose gentlyRm don't care about contents; nuking D:\node\learnCallback\node_modules\.staging\lowdb-099a2e58\node_modules
+382 silly doParallel preinstall 2
+383 silly preinstall lowdb@0.13.1 D:\node\learnCallback\node_modules\.staging\lowdb-a7f9b04f
+384 info lifecycle lowdb@0.13.1~preinstall: lowdb@0.13.1
+385 silly preinstall lowdb@0.14.0 D:\node\learnCallback\node_modules\.staging\lowdb-099a2e58
+386 info lifecycle lowdb@0.14.0~preinstall: lowdb@0.14.0
+387 silly lifecycle lowdb@0.13.1~preinstall: no script for preinstall, continuing
+388 silly lifecycle lowdb@0.14.0~preinstall: no script for preinstall, continuing
+389 silly doReverseSerial remove 0
+390 silly doSerial move 0
+391 silly doSerial finalize 2
+392 silly finalize D:\node\learnCallback\node_modules\json-server\node_modules\lowdb
+393 verbose unlock done using C:\Users\ly-litao\AppData\Roaming\npm-cache\_locks\staging-50d8376f005d4e98.lock for D:\node\learnCallback\node_modules\.staging
+394 silly rollbackFailedOptional Starting
+395 silly rollbackFailedOptional Finishing
+396 silly runTopLevelLifecycles Starting
+397 silly runTopLevelLifecycles Finishing
+398 silly install printInstalled
+399 warn optional Skipping failed optional dependency /chokidar/fsevents:
+400 warn notsup Not compatible with your operating system or architecture: fsevents@1.0.17
+401 warn callback_and_more@1.0.0 No repository field.
+402 verbose stack Error: EPERM: operation not permitted, rename 'D:\node\learnCallback\node_modules\.staging\lowdb-a7f9b04f' -> 'D:\node\learnCallback\node_modules\json-server\node_modules\lowdb'
+402 verbose stack     at destStatted (C:\Users\ly-litao\AppData\Roaming\npm\node_modules\npm\lib\install\action\finalize.js:25:7)
+402 verbose stack     at FSReqWrap.oncomplete (fs.js:123:15)
+402 verbose stack
+402 verbose stack Error: EPERM: operation not permitted, rename 'D:\node\learnCallback\node_modules\.staging\lowdb-a7f9b04f' -> 'D:\node\learnCallback\node_modules\json-server\node_modules\lowdb'
+402 verbose stack     at Error (native)
+403 verbose cwd D:\node\learnCallback
+404 error Windows_NT 6.1.7601
+405 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Users\\ly-litao\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js" "i" "--save" "lowdb"
+406 error node v6.9.1
+407 error npm  v3.10.6
+408 error path D:\node\learnCallback\node_modules\.staging\lowdb-a7f9b04f
+409 error code EPERM
+410 error errno -4048
+411 error syscall rename
+412 error Error: EPERM: operation not permitted, rename 'D:\node\learnCallback\node_modules\.staging\lowdb-a7f9b04f' -> 'D:\node\learnCallback\node_modules\json-server\node_modules\lowdb'
+412 error     at destStatted (C:\Users\ly-litao\AppData\Roaming\npm\node_modules\npm\lib\install\action\finalize.js:25:7)
+412 error     at FSReqWrap.oncomplete (fs.js:123:15)
+412 error
+412 error Error: EPERM: operation not permitted, rename 'D:\node\learnCallback\node_modules\.staging\lowdb-a7f9b04f' -> 'D:\node\learnCallback\node_modules\json-server\node_modules\lowdb'
+412 error     at Error (native)
+412 error  { Error: EPERM: operation not permitted, rename 'D:\node\learnCallback\node_modules\.staging\lowdb-a7f9b04f' -> 'D:\node\learnCallback\node_modules\json-server\node_modules\lowdb'
+412 error     at destStatted (C:\Users\ly-litao\AppData\Roaming\npm\node_modules\npm\lib\install\action\finalize.js:25:7)
+412 error     at FSReqWrap.oncomplete (fs.js:123:15)
+412 error
+412 error Error: EPERM: operation not permitted, rename 'D:\node\learnCallback\node_modules\.staging\lowdb-a7f9b04f' -> 'D:\node\learnCallback\node_modules\json-server\node_modules\lowdb'
+412 error     at Error (native) parent: 'json-server' }
+413 error Please try running this command again as root/Administrator.
+414 verbose exit [ -4048, true ]
