@@ -81,45 +81,6 @@ const noteAry = [{
 // 			})
 // 	})
 // }
-
-// 使用 async
-async function realCreateNote(note) {
-	if(!existsSync(note.notebook)) {
-		console.log(`笔记本${note.notebook}不存在，先创建笔记本`)
-		// 如果笔记本不存在
-		try {
-			await createNotebook(note.notebook)
-			console.log(`笔记本${note.notebook}创建成功`)
-		}catch(err) {
-			console.log(err)
-			return Promise.reject(err)
-		}
-	}
-	console.log(`笔记本${note.notebook}已经存在，直接创建笔记`)
-	try {
-		await createNote(note)
-		console.log(`笔记${note.title}创建成功`)
-		return Promise.resolve(`笔记${note.title}创建成功`)
-	}catch(err) {
-		console.log(err)
-		return Promise.reject(err)
-	}
-}
-
-// realCreateNote(noteAry[1])
-
-async function main() {
-	for(let i = 0, len = noteAry.length; i < len; i++) {
-		const note = noteAry[i]
-		try {
-			await realCreateNote(note)
-		}catch(err) {
-			console.log(err)
-		}
-	}
-}
-main()
-
 // function main() {
 // 	// 临时变量
 // 	let promise = Promise.resolve()
@@ -135,3 +96,30 @@ main()
 // }).catch(err => {
 // 	console.error(err)
 // })
+
+// 使用 async
+
+async function main() {
+	for(let i = 0, len = noteAry.length; i < len; i++) {
+		const note = noteAry[i]
+		if(!existsSync(note.notebook)) {
+			console.log(`笔记本${note.notebook}不存在，先创建笔记本`)
+			// 如果笔记本不存在
+			try {
+				await createNotebook(note.notebook)
+				console.log(`笔记本${note.notebook}创建成功`)
+			}catch(err) {
+				console.log(err)
+			}
+		}
+		console.log(`笔记本${note.notebook}已经存在，直接创建笔记`)
+		try {
+			await createNote(note)
+			console.log(`笔记${note.title}创建成功`)
+		}catch(err) {
+			console.log(err)
+		}
+	}
+}
+main()
+
